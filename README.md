@@ -3,3 +3,4 @@
 - [AddAB.java](https://github.com/BoGyeong1/study_javas/blob/master/src/AddAB.java)  : 두 변수를 합함
 - [MinusAB.java](https://github.com/BoGyeong1/study_javas/blob/master/src/MinusAB.java) : 두 변수를 뺌
 - [DivideAB.java](https://github.com/BoGyeong1/study_javas/blob/master/src/DivideAB.java) : 두 변수를 나눔
+- [ArithmeticAB.java](https://github.com/BoGyeong1/study_javas/blob/master/src/ArithmeticAB.java) : 사칙연산
