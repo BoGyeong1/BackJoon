@@ -4,6 +4,7 @@
 | -------- | ---- | ----------------------------------------------- | ----------------------------------------------- | -------------------------------- |
 | 사칙연산 | 덧셈 | [java](https://www.acmicpc.net/source/48316653) | [java](https://www.acmicpc.net/source/51271875) | 두 변수를 합함                   |
 | 사칙연산 | 덧셈 | [java](https://www.acmicpc.net/source/51272715) | [java](https://www.acmicpc.net/source/51275901) | 정수를 입력받아 그 정수만큼 더함 |
+| 사칙연산 | 덧셈 | [java](https://www.acmicpc.net/source/51308064) | [java](https://www.acmicpc.net/source/51308356) | N개를 합함                       |
 
 ### 수정중
 
