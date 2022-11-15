@@ -15,7 +15,7 @@ import java.util.Scanner;
 // 케이스 case1
 // 배열 arr
 
-public class Main {
+public class Mainplus {
 
     // 처리
     public int plus(int input_first, int input_second) {

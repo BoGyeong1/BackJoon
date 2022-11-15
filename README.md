@@ -6,6 +6,7 @@
 | 사칙연산 | 덧셈 | [java](https://www.acmicpc.net/source/51272715) | [java](https://www.acmicpc.net/source/51275901) | 정수를 입력받아 그 정수만큼 더함 |
 | 사칙연산 | 덧셈 | [java](https://www.acmicpc.net/source/51308064) | [java](https://www.acmicpc.net/source/51308356) | N개를 합함                       |
 | 사칙연산 | 뺄셈 | [java](https://www.acmicpc.net/source/51492918) | [java](https://www.acmicpc.net/source/51493014) | 두 변수를 뺌                     |
+| 사칙연산 | 곱셈 | [java](https://www.acmicpc.net/source/51499004) | [java](https://www.acmicpc.net/source/51723927) | 두 변수를 곱함                   |
 
 ### 수정중
 
