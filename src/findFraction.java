@@ -58,3 +58,4 @@ public class findFraction {
 
 // -try-on
 // -실패 시 원인 기록
+// 메인 메소드 잘못건드려서 한참 고생했따....
