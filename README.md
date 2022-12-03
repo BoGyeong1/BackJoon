@@ -7,6 +7,7 @@
 | 사칙연산 | 덧셈 | [java](https://www.acmicpc.net/source/51308064) | [java](https://www.acmicpc.net/source/51308356) | N개를 합함                       |
 | 사칙연산 | 뺄셈 | [java](https://www.acmicpc.net/source/51492918) | [java](https://www.acmicpc.net/source/51493014) | 두 변수를 뺌                     |
 | 사칙연산 | 곱셈 | [java](https://www.acmicpc.net/source/51499004) | [java](https://www.acmicpc.net/source/51723927) | 두 변수를 곱함                   |
+| 기본수학 | 수학 | [java](https://www.acmicpc.net/source/52351853) | [java](https://www.acmicpc.net/source/52352815) | 분수 찾기                        |
 
 ### 수정중
 
