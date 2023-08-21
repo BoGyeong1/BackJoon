@@ -1,46 +1,45 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.StringTokenizer;
+import java.util.Scanner;
 
 public class Main {
 
-    // //-처리 (잔여 길이가 남는 다면 한번 더 미끄러져야함)
-    public int calculation(int length, int down, int up) {
-        int day = (length - down) / (up - down);
-        if ((length - down) % (up - down) != 0)
-            day++;
-
-        return day;
-    }
-
     public static void main(String[] args) {
-        // -테스트 케이스
-        // 2 1 5 -> 4
-        // 5 1 6 -> 2
-        // -프로그래밍 순서
-        // -입력
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        try {
-            StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-            // -토큰분리해서 변수에 지정
-            int up = Integer.parseInt(st.nextToken());
-            int down = Integer.parseInt(st.nextToken());
-            int length = Integer.parseInt(st.nextToken());
 
-            Main main = new Main();
-            int output = main.calculation(length, down, up);
-            // 출력
+        // 입력- 스캐너로 값받기
+        Scanner scanner = new Scanner(System.in);
+        int number1 = scanner.nextInt();
+        int number2 = scanner.nextInt();
+        // 받은 값으로 배열 만들기
+        int[][] arr1 = new int[number1][number2];
+        int[][] arr2 = new int[number1][number2];
 
-            System.out.println(output);
+        // 배열1 값 입력
+        for (int i = 0; i < number1; i++) {
+            for (int j = 0; j < number2; j++) {
+                arr1[i][j] = scanner.nextInt();
+            }
 
-        } catch (IOException e) {
-            e.printStackTrace();
         }
 
-        // -try-on
-        // -실패 시 원인 기록
-        // 단순하게 생각했다가 시간 초과...
+        // 배열2 값 입력
+
+        for (int i = 0; i < number1; i++) {
+            for (int j = 0; j < number2; j++) {
+                arr2[i][j] = scanner.nextInt();
+            }
+
+        }
+
+        // 처리 배열 1과 2의 값 더하기
+        for (int i = 0; i < number1; i++) {
+            for (int j = 0; j < number2; j++) {
+                System.out.print(arr1[i][j] + arr2[i][j] + " ");
+                // 밑줄로 넘기기
+                if (j == number2 - 1)
+                    System.out.println();
+
+            }
+        }
+        scanner.close();
 
     }
 

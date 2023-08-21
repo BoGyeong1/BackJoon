@@ -53,7 +53,7 @@ public class Mainplus {
         for (int i = 0; i < arr.length; i++) {
             int input_first = scanner.nextInt();
             int input_second = scanner.nextInt();
-            Main1 main = new Main1();
+            Main main = new Main();
             arr[i] = main.plus(input_first, input_second);
 
         }
