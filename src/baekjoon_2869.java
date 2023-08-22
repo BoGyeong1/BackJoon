@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class baekjoon_2738 {
+public class baekjoon_2869 {
 
     // //-처리 (잔여 길이가 남는 다면 한번 더 미끄러져야함)
     public int calculation(int length, int down, int up) {
@@ -28,7 +28,7 @@ public class baekjoon_2738 {
             int down = Integer.parseInt(st.nextToken());
             int length = Integer.parseInt(st.nextToken());
 
-            baekjoon_2738 main = new baekjoon_2738();
+            baekjoon_2869 main = new baekjoon_2869();
             int output = main.calculation(length, down, up);
             // 출력
 

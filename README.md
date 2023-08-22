@@ -12,7 +12,8 @@
 | 문자열   | 문자열     | [java](https://www.acmicpc.net/source/52618125) |                                                 | 단어갯수 찾기                                 |
 | 사칙연산 | 덧셈       | [java](https://www.acmicpc.net/source/50022421) | [java](https://www.acmicpc.net/source/53553807) | 두 정수 A와 B를 입력받은 다음, A+B를 출력     |
 | 기본수학 | 수학       | [java](https://www.acmicpc.net/source/53778115) | [java](https://www.acmicpc.net/source/53778494) | 달팽이가 올라가는 데 며칠이 걸리는 지 구함    |
-| 행렬     | 2차원 배열 | [java](https://www.acmicpc.net/source/65418416) |                                                 | 두 행렬 A와 B가 주어졌을 때, 두 행렬을 더하기 |
+| 배열     | 2차원 배열 | [java](https://www.acmicpc.net/source/65418416) |                                                 | 두 행렬 A와 B가 주어졌을 때, 두 행렬을 더하기 |
+| 배열     | 1차원 배열 | [java](https://www.acmicpc.net/source/65467075) |                                                 | 배열 안의 숫자 중 같은 숫자 찾기              |
 
 ### 수정중
 

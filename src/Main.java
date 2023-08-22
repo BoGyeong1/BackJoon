@@ -4,43 +4,30 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // 입력- 스캐너로 값받기
         Scanner scanner = new Scanner(System.in);
-        int number1 = scanner.nextInt();
-        int number2 = scanner.nextInt();
-        // 받은 값으로 배열 만들기
-        int[][] arr1 = new int[number1][number2];
-        int[][] arr2 = new int[number1][number2];
 
-        // 배열1 값 입력
-        for (int i = 0; i < number1; i++) {
-            for (int j = 0; j < number2; j++) {
-                arr1[i][j] = scanner.nextInt();
-            }
+        // 입력 - 배열 안의 총 숫자 입력받기
+        int number = scanner.nextInt();
+        int[] arr = new int[number];
 
+        // 배열에 각 숫자값을 저장
+        for (int i = 0; i < number; i++) {
+            arr[i] = scanner.nextInt();
         }
 
-        // 배열2 값 입력
+        // 찾을 숫자 값
 
-        for (int i = 0; i < number1; i++) {
-            for (int j = 0; j < number2; j++) {
-                arr2[i][j] = scanner.nextInt();
-            }
+        int findNumber = scanner.nextInt();
 
-        }
-
-        // 처리 배열 1과 2의 값 더하기
-        for (int i = 0; i < number1; i++) {
-            for (int j = 0; j < number2; j++) {
-                System.out.print(arr1[i][j] + arr2[i][j] + " ");
-                // 밑줄로 넘기기
-                if (j == number2 - 1)
-                    System.out.println();
-
+        // 처리 - 배열안에서 같은 값 찾기
+        int count = 0;
+        for (int i = 0; i < number; i++) {
+            if (arr[i] == findNumber) {
+                count++;
             }
         }
-        scanner.close();
 
+        System.out.println(count);
     }
 
 }
