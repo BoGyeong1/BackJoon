@@ -17,6 +17,7 @@
 | 배열     | 1차원 배열 | [java](https://www.acmicpc.net/source/50191795) |                                                 | 배열 안의 최소,최대값 구하기                  |
 | 배열     | 1차원 배열 | [java](https://www.acmicpc.net/source/65564394) |                                                 | 공넣기                                        |
 | 배열     | 1차원 배열 | [java](https://www.acmicpc.net/source/65620636) |                                                 | 과제 제출 안한 번호 출력하기                  |
+| 심화     | 별찍기     | [java](https://www.acmicpc.net/problem/2444)    |                                                 | 별찍기                                        |
 
 ### 수정중
 
